@@ -1,0 +1,93 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	background-color: #FFFF99;
+	width: 100%;
+}
+
+li {
+	border: 1px solid #999999;
+	border-radius: 3.5px;
+    padding: 10px;
+    box-shadow: 2px 4px 10px #999999;
+    background-color: #EEEEEE;
+    width: 50%;
+    height: 5vh;
+    margin: auto;
+    transform: translateY(200%);
+    /*margin-left: 20%;*/
+    /*color: #666666;*/
+    /*color: #999999;*/
+}
+
+li .menu-item {
+	float: left;
+	/*text-overflow: ellipsis;
+	white-space: nowrap;
+  	overflow: hidden;*/
+	
+	
+}
+li > div {
+	float: right;
+	display: inline;
+	/*color: #000000;*/
+	font-weight: bold;
+}
+/*nieparzyste elementy*/
+li:nth-child(odd) {
+
+	color: #666666;
+	position: relative; 
+	right: 1%;
+	border-radius: 3.5px 0px 0px 3.5px;
+
+}
+
+li:nth-child(odd) > div {
+	color: #000000;
+}
+
+/*parzyste elementy*/
+li:nth-child(even) {
+	color: #000000;
+	position: relative; 
+	left: 1%;
+	border-radius: 0px 3.5px 3.5px 0px;
+	
+}
+li:nth-child(even) > div {
+	color: #666666;
+}
+li:first-child {
+	border-radius: 3.5px;
+}
+
+li:last-child {
+	border-radius: 3.5px;
+}
+
+
+/*#one {
+	color: #666666;
+	position: relative; 
+	right: 1%;
+
+}
+#one > div {
+	color: #000000;
+}
+
+#two {
+	color: #000000;
+	position: relative; 
+	left: 1%;
+	
+}
+#two > div {
+	color: #666666;
+}*/

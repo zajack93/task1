@@ -1,0 +1,76 @@
+
+/*----------------media queries width start---------------*/
+
+@media (min-width:897px) and (max-width:1499px) {
+	body {
+		font-size: 17px;
+	}
+	li {
+		padding: 10px;
+
+	}
+}
+
+@media (min-width:598px) and (max-width:897px) {
+	body {
+		font-size: 16px;
+	}
+	li {
+		padding: 8px;
+
+	}
+}
+
+@media (min-width:248px) and (max-width:598px) {
+	body {
+		font-size: 15px;
+	}
+	li {
+		padding: 6px;
+
+	}
+}
+
+@media (max-width: 248px) {
+	body {
+		font-size: 14px;
+	}
+	li {
+		padding: 4px;
+	}
+}
+/*----------------media queries width stop---------------*/
+
+
+
+/*----------------media queries height start---------------*/
+@media screen and (min-height: 307px) and (max-height: 470px) {
+	body {
+		font-size: 15px;
+	}
+	li {
+    	transform: translateY(13vh);
+		padding-top: 5px;
+	}
+}
+
+@media screen and (min-height: 282px) and (max-height: 307px) {
+	body {
+		font-size: 14px;
+	}
+	li {
+    	transform: translateY(8vh);
+		padding-top: 4px;
+	}
+}
+
+@media screen and (max-height: 282px) {
+	body {
+		font-size: 12px;
+	}
+	li {
+    	transform: translateY(8vh);
+		padding-top: 3px;
+	}
+}
+/*----------------media queries height stop---------------*/
